@@ -9,32 +9,44 @@
     <title>Touch grass</title>
   </head>
   <body
-    class="bg-[url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDBhbmFobnR5b2FpZ3J6ZHcxZXhwdnMzajhrMjB4cjRjZzYzZGdrMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dg/nHjL2n5YtmI8KuHgjw/giphy.gif)] bg-no-repeat bg-cover text-center flex flex-col items-center"
+    class="bg-[url(https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDBhbmFobnR5b2FpZ3J6ZHcxZXhwdnMzajhrMjB4cjRjZzYzZGdrMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9dg/nHjL2n5YtmI8KuHgjw/giphy.gif)] bg-no-repeat bg-cover text-center flex flex-col items-center min-h-screen"
   >
-    <h1 class="text-[8rem] text-white">Grass touched:</h1>
+    <h1 class="text-[4rem] sm:text-[6rem] md:text-[8rem] text-white">
+      Grass touched:
+    </h1>
     <div
       class="backdrop-blur-lg max-w-[20rem] w-full flex flex-col gap-5 p-5 shadow-lg rounded-md"
     >
-      <p class="text-[7rem] text-white" id="grass-count">0</p>
+      <p
+        class="text-[5rem] sm:text-[6rem] md:text-[7rem] text-white"
+        id="grass-count"
+      >
+        0
+      </p>
       <button
-        class="text-lg cursor-pointer font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-green-500 text-white shadow-lg hover:bg-green-400 px-6 py-2 rounded-lg transition-all duration-300 ease-out hover:ring-2 hover:ring-green-500 hover:ring-offset-2"
+        class="text-lg sm:text-xl md:text-2xl cursor-pointer font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-green-500 text-white shadow-lg hover:bg-green-400 px-6 py-2 rounded-lg transition-all duration-300 ease-out hover:ring-2 hover:ring-green-500 hover:ring-offset-2"
         onclick="increment()"
       >
         TOUCH
       </button>
       <button
-        class="text-lg cursor-pointer font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-green-700 text-white shadow-lg hover:bg-green-600 px-6 py-2 rounded-lg transition-all duration-300 ease-out hover:ring-2 hover:ring-green-500 hover:ring-offset-2"
+        class="text-lg sm:text-xl md:text-2xl cursor-pointer font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-green-700 text-white shadow-lg hover:bg-green-600 px-6 py-2 rounded-lg transition-all duration-300 ease-out hover:ring-2 hover:ring-green-500 hover:ring-offset-2"
         onclick="save()"
       >
         SAVE
       </button>
-      <p id="scores" class="text-lg text-white font-medium">Previous scores:</p>
+      <p
+        id="scores"
+        class="text-lg sm:text-xl md:text-2xl text-white font-medium"
+      >
+        Previous scores:
+      </p>
     </div>
     <footer class="mt-12 py-6">
       <a
         href="https://github.com/AbdullahHamadax/touch-grass-js"
         target="_blank"
-        class="flex items-center justify-center text-sm cursor-pointer font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-green-500 text-white shadow-lg hover:bg-green-400 px-6 py-2 max-w-52 whitespace-pre md:flex group relative w-full gap-3 rounded-lg transition-all duration-300 ease-linear hover:ring-2 hover:ring-green-500 hover:ring-offset-2"
+        class="flex items-center justify-center text-sm sm:text-base cursor-pointer font-medium focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 bg-green-500 text-white shadow-lg hover:bg-green-400 px-6 py-2 max-w-52 whitespace-pre md:flex group relative w-full gap-3 rounded-lg transition-all duration-300 ease-linear hover:ring-2 hover:ring-green-500 hover:ring-offset-2"
       >
         <div class="flex items-center">
           <svg class="w-4 h-4 fill-current" viewBox="0 0 438.549 438.549">
