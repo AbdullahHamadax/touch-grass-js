@@ -4,6 +4,6 @@
     "tailwindcss": "^4.0.14"
   },
   "scripts": {
-    "build": "tailwindcss -i ./src/input.css -o ./src/output.css --minify"
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --minify"
   }
 }
