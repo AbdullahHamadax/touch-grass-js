@@ -38,4 +38,4 @@ You can also view a live demo of the project hosted on [Vercel](https://touch-gr
 
 - [Scrimba](https://scrimba.com/home) for their awesome course.
 - [Vercel](https://vercel.com) for easy hosting.
-- [Elijah Gummer](https://uiverse.io/@elijahgummer) for the **Star on Github** button
+- [Elijah Gummer](https://uiverse.io/elijahgummer) for the **Star on Github** button
